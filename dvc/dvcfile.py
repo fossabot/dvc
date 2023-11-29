@@ -181,6 +181,7 @@ class SingleStageFile(FileMixin):
     from dvc.schema import COMPILED_SINGLE_STAGE_SCHEMA as SCHEMA
     from dvc.stage.loader import SingleStageLoader as LOADER  # noqa: N814
 
+    datasets: List[Dict[str, Any]] = []
     metrics: List[str] = []
     plots: Any = {}
     params: List[str] = []
@@ -312,6 +313,10 @@ class ProjectFile(FileMixin):
     @property
     def params(self) -> List[str]:
         return self.contents.get("params", [])
+
+    @property
+    def datasets(self) -> List[Dict[str, Any]]:
+        return self.contents.get("datasets", [])
 
     @property
     def artifacts(self) -> Dict[str, Optional[Dict[str, Any]]]:
