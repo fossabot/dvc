@@ -20,6 +20,8 @@
 **Data Version Control** or **DVC** is a command line tool and `VS Code Extension`_ to help you develop reproducible machine learning projects:
 
 #. **Version** your data and models.
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fskshetry%2Fdvc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fskshetry%2Fdvc?ref=badge_shield)
+
    Store them in your cloud storage but keep their version info in your Git repo.
 
 #. **Iterate** fast with lightweight pipelines.
@@ -299,3 +301,7 @@ Barrak, A., Eghan, E.E. and Adams, B. `On the Co-evolution of ML Pipelines and S
 .. |VS Code| image:: https://img.shields.io/visual-studio-marketplace/v/Iterative.dvc?color=blue&label=VSCode&logo=visualstudiocode&logoColor=blue
    :target: https://marketplace.visualstudio.com/items?itemName=Iterative.dvc
    :alt: VS Code Extension
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fskshetry%2Fdvc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fskshetry%2Fdvc?ref=badge_large)
